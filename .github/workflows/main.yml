@@ -3,11 +3,11 @@ name: Git Clone and Maven Build
 on:
   push:
     branches:
-      - main
+      - master
 
   pull_request:
     branches:
-      - main
+      - master
 
   workflow_dispatch:
 
